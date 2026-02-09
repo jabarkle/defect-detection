@@ -1,0 +1,12 @@
+# YOLO Dataset Configuration — 3D Print Defect Detection
+# Update 'path' to point to your local dataset_split/ directory after download.
+
+path: ./dataset_split
+train: train/images
+val: valid/images
+test: test/images
+nc: 3
+names:
+  - spaghetti
+  - stringing
+  - warping

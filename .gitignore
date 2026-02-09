@@ -1,0 +1,48 @@
+# ── Dataset (too large for GitHub) ─────────────────────────────────────
+dataset_split/
+!data.yaml
+
+# ── Model weights ──────────────────────────────────────────────────────
+*.pt
+training_results/*/weights/
+
+# ── Training artifacts (bulk images & caches) ──────────────────────────
+training_results/
+runs/
+*.cache
+
+# ── Large archives ─────────────────────────────────────────────────────
+*.zip
+
+# ── Original example images (reorganized into docs/) ──────────────────
+ExamplesPart1/
+
+# ── Reports kept in reports/ (exclude root-level large PDFs) ──────────
+Group1_24-641_Project1_Dataset_S26.pdf
+Draft Assignment - Manufacturing Defect Identification using CNNs_rev5.pdf
+
+# ── Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── IDE / OS ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Runtime / Logs ─────────────────────────────────────────────────────
+screenshots/
+*.log
+*_log.txt
+training_log.txt
+best_model_log.txt
+batch32_log.txt

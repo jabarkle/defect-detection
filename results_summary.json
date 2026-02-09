@@ -1,0 +1,163 @@
+{
+  "experiments": {
+    "yolov11_batch_32": {
+      "epochs": 16,
+      "final_val_box_loss": 1.96565,
+      "final_val_cls_loss": 2.25247,
+      "final_val_dfl_loss": 1.91881,
+      "final_mAP50": 0.25304,
+      "final_mAP50_95": 0.10782,
+      "final_precision": 0.36386,
+      "final_recall": 0.295
+    },
+    "yolov11_batch_8": {
+      "epochs": 16,
+      "final_val_box_loss": 2.07141,
+      "final_val_cls_loss": 2.33394,
+      "final_val_dfl_loss": 2.00533,
+      "final_mAP50": 0.2384,
+      "final_mAP50_95": 0.10351,
+      "final_precision": 0.32752,
+      "final_recall": 0.26783
+    },
+    "yolov11_default": {
+      "epochs": 16,
+      "final_val_box_loss": 2.00738,
+      "final_val_cls_loss": 2.15291,
+      "final_val_dfl_loss": 1.93723,
+      "final_mAP50": 0.2857,
+      "final_mAP50_95": 0.12226,
+      "final_precision": 0.38513,
+      "final_recall": 0.32505
+    },
+    "yolov11_lr_0.2x": {
+      "epochs": 16,
+      "final_val_box_loss": 1.91168,
+      "final_val_cls_loss": 1.95571,
+      "final_val_dfl_loss": 1.77331,
+      "final_mAP50": 0.33342,
+      "final_mAP50_95": 0.15215,
+      "final_precision": 0.49985,
+      "final_recall": 0.33581
+    },
+    "yolov11_lr_5x": {
+      "epochs": 16,
+      "final_val_box_loss": 2.1904,
+      "final_val_cls_loss": 2.71754,
+      "final_val_dfl_loss": 2.1538,
+      "final_mAP50": 0.12059,
+      "final_mAP50_95": 0.04894,
+      "final_precision": 0.41985,
+      "final_recall": 0.15788
+    },
+    "yolov9_batch_32": {
+      "epochs": 16,
+      "final_val_box_loss": 1.92001,
+      "final_val_cls_loss": 2.16572,
+      "final_val_dfl_loss": 1.88333,
+      "final_mAP50": 0.25574,
+      "final_mAP50_95": 0.11303,
+      "final_precision": 0.34579,
+      "final_recall": 0.28802
+    },
+    "yolov9_batch_8": {
+      "epochs": 16,
+      "final_val_box_loss": 2.01204,
+      "final_val_cls_loss": 2.29347,
+      "final_val_dfl_loss": 2.03634,
+      "final_mAP50": 0.25484,
+      "final_mAP50_95": 0.10872,
+      "final_precision": 0.35116,
+      "final_recall": 0.3201
+    },
+    "yolov9_default": {
+      "epochs": 16,
+      "final_val_box_loss": 1.96412,
+      "final_val_cls_loss": 2.11775,
+      "final_val_dfl_loss": 1.97106,
+      "final_mAP50": 0.26902,
+      "final_mAP50_95": 0.12114,
+      "final_precision": 0.37774,
+      "final_recall": 0.30306
+    },
+    "yolov9_lr_0.2x": {
+      "epochs": 16,
+      "final_val_box_loss": 1.89522,
+      "final_val_cls_loss": 1.97781,
+      "final_val_dfl_loss": 1.93636,
+      "final_mAP50": 0.31633,
+      "final_mAP50_95": 0.14523,
+      "final_precision": 0.43054,
+      "final_recall": 0.34774
+    },
+    "yolov9_lr_5x": {
+      "epochs": 16,
+      "final_val_box_loss": 2.1869,
+      "final_val_cls_loss": 2.74024,
+      "final_val_dfl_loss": 2.15132,
+      "final_mAP50": 0.12263,
+      "final_mAP50_95": 0.05325,
+      "final_precision": 0.28726,
+      "final_recall": 0.1441
+    },
+    "yolov11_best_extended": {
+      "epochs": 51,
+      "final_val_box_loss": 2.01304,
+      "final_val_cls_loss": 2.01578,
+      "final_val_dfl_loss": 1.88584,
+      "final_mAP50": 0.36609,
+      "final_mAP50_95": 0.17622,
+      "final_precision": 0.49323,
+      "final_recall": 0.39667
+    }
+  },
+  "test_evaluations": [
+    {
+      "tag": "yolov9_default",
+      "mAP50": 0.4300558941013495,
+      "mAP50_95": 0.2672149372998252,
+      "precision": 0.7780034665800022,
+      "recall": 0.09002834467120181,
+      "inference_ms_per_image": 26.97,
+      "conf_threshold": 0.5,
+      "total_gt_objects": 1379,
+      "total_pred_objects": 247,
+      "true_positives": 235,
+      "false_positives": 12,
+      "false_negatives": 1144
+    },
+    {
+      "tag": "yolov11_default",
+      "mAP50": 0.28503338352918667,
+      "mAP50_95": 0.1755919416466662,
+      "precision": 0.4891501931379232,
+      "recall": 0.09325396825396826,
+      "inference_ms_per_image": 18.48,
+      "conf_threshold": 0.5,
+      "total_gt_objects": 1379,
+      "total_pred_objects": 225,
+      "true_positives": 214,
+      "false_positives": 11,
+      "false_negatives": 1165
+    },
+    {
+      "tag": "yolov11_best_extended",
+      "model": "YOLOv11s",
+      "epochs": 50,
+      "optimizer": "SGD",
+      "lr0": 0.002,
+      "batch": 16,
+      "mAP50": 0.40679884532358485,
+      "mAP50_95": 0.22277301882812442,
+      "precision": 0.5959705232402245,
+      "recall": 0.23020408163265307,
+      "inference_ms_per_image": 34.56,
+      "conf_threshold": 0.5,
+      "total_gt_objects": 1379,
+      "total_pred_objects": 601,
+      "true_positives": 533,
+      "false_positives": 68,
+      "false_negatives": 846
+    }
+  ]
+}
