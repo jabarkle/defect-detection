@@ -19,7 +19,9 @@
 
 Fused Deposition Modeling (FDM) 3D printing is prone to failures—**spaghetti**, **stringing**, and **warping**—that waste material, time, and machine hours. In production environments, these defects often go undetected until a print completes, resulting in costly reprints and downtime.
 
-A team of four engineers developed an **end-to-end computer vision pipeline** to detect these defects in real time. The project spans the full ML lifecycle: sourcing and cleaning a dataset, training and comparing state-of-the-art object detection models through systematic hyperparameter sweeps, and deploying the best model in an intuitive desktop GUI for live defect monitoring.
+A team of four engineers developed an **end-to-end computer vision pipeline** to detect these defects in real time. The project spans the full ML lifecycle: sourcing and cleaning a dataset, training and comparing state-of-the-art object detection models through systematic hyperparameter sweeps, and deploying the best model in an intuitive desktop GUI for live defect monitoring. Below is a demonstration of our model inferencing on an actual defect.
+
+![Live Demo](LiveDemo.png)
 
 ---
 
