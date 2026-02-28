@@ -24,7 +24,7 @@ A team of four engineers developed an **end-to-end computer vision pipeline** to
 <p align="center">
   <img src="LiveDemo.png" width="700">
   <br>
-  <em>Real-time demo of the system running inference.</em>
+  <em>Real-time demo of the system running inference inside our custom GUI.</em>
 </p>
 
 ---
