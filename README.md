@@ -23,7 +23,7 @@ A team of four engineers developed an **end-to-end computer vision pipeline** to
 
 ![Live Demo](LiveDemo.png)
 
-*A demonstration of our model inferencing on an actual defect shown in the image above.
+*A demonstration of our model inferencing on an actual defect shown in the image above.*
 ---
 
 ## Defect Classes
