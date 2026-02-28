@@ -22,7 +22,7 @@ Fused Deposition Modeling (FDM) 3D printing is prone to failures—**spaghetti**
 A team of four engineers developed an **end-to-end computer vision pipeline** to detect these defects in real time. The project spans the full ML lifecycle: sourcing and cleaning a dataset, training and comparing state-of-the-art object detection models through systematic hyperparameter sweeps, and deploying the best model in an intuitive desktop GUI for live defect monitoring. 
 
 <p align="center">
-  <img src="LiveDemo.png" width="700">
+  <img src="LiveDemo.png" width="800">
   <br>
   <em>Real-time demo of the system running inference inside our custom GUI.</em>
 </p>
